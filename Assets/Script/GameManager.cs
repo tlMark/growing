@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public Sprite[] jellySpriteList;
     public string[] jellyNameList;
     public int[] jellyJelatineList;
     public int[] jellyGoldList;
+    public int[] numGoldList;
+    public int[] clickGoldList;
 
+     public Sprite[] jellySpriteList;
     public Vector3[] PointList;
     public RuntimeAnimatorController[] LevelAc;
 
